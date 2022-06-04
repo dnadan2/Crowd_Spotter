@@ -7,6 +7,10 @@ var lastAnimation = 4
 const ANIMATION_TIME = 5
 
 func _ready():
+	var idleAnimation = get_node("KayKit_AnimatedCharacter_v12/AnimationPlayer").get_animation("Idle").duplicate()
+	get_node("KayKit_AnimatedCharacter_v12/AnimationPlayer").remove_animation("Idle")
+	get_node("KayKit_AnimatedCharacter_v12/AnimationPlayer").add_animation("Idle", idleAnimation)
+	
 	var headInUse = get_node("KayKit_AnimatedCharacter_v12/KayKit Animated Character/Skeleton/Head/Head" + str(round(randf() * 3) + 1))
 	var hairTexture = load(hairColours[round(randf() * (hairColours.size()-1))])
 	var eyeTexture = load(eyeColours[round(randf() * (eyeColours.size()-1))])
@@ -35,7 +39,7 @@ func _process(delta):
 		
 		get_node("KayKit_AnimatedCharacter_v12/AnimationPlayer").queue(animation[randf() * (animation.size() - 1)])
 		get_node("KayKit_AnimatedCharacter_v12/AnimationPlayer").get_animation("Idle").set_loop(false)
-		call_function_after("queueIdle", .5)
+		call_function_after("queueIdle", .75)
 
 func queueIdle():
 	get_node("KayKit_AnimatedCharacter_v12/AnimationPlayer").get_animation("Idle").set_loop(true)
