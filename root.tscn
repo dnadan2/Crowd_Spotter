@@ -7,28 +7,28 @@
 [node name="Spatial" type="Spatial"]
 script = ExtResource( 3 )
 
-[node name="character_barbarian" parent="." instance=ExtResource( 1 )]
+[node name="character1" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3 )
 
-[node name="character_barbarian2" parent="." instance=ExtResource( 1 )]
+[node name="character2" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 3 )
 
-[node name="character_barbarian4" parent="." instance=ExtResource( 1 )]
+[node name="character3" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 3 )
 
-[node name="character_barbarian9" parent="." instance=ExtResource( 1 )]
+[node name="character4" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.5 )
 
-[node name="character_barbarian10" parent="." instance=ExtResource( 1 )]
+[node name="character5" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0 )
 
-[node name="character_barbarian12" parent="." instance=ExtResource( 1 )]
+[node name="character6" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0 )
 
-[node name="character_barbarian11" parent="." instance=ExtResource( 1 )]
+[node name="character7" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2898, 0, -2.5158 )
 
-[node name="character_barbarian13" parent="." instance=ExtResource( 1 )]
+[node name="character8" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2898, 0, -2.5158 )
 
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
