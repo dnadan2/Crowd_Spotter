@@ -1,6 +1,6 @@
 extends Spatial
-const eyeColours = ["res://Heads/eye_colour_blue.tres", "res://Heads/eye_colour_brown.tres", "res://Heads/eye_colour_green.tres", "res://Heads/eye_colour_hazel.tres"]
-const hairColours = ["res://Heads/hair_colour_black.tres", "res://Heads/hair_colour_blond.tres", "res://Heads/hair_colour_brown.tres", "res://Heads/hair_colour_ginger.tres", "res://Heads/hair_colour_grey.tres"]
+const eyeColours = ["res://Heads/eye_colour_blue.tres", "res://Heads/eye_colour_brown.tres", "res://Heads/eye_colour_green.tres", "res://Heads/eye_colour_hazel.tres", "res://Heads/eye_colour_purple.tres"]
+const hairColours = ["res://Heads/hair_colour_black.tres", "res://Heads/hair_colour_blond.tres", "res://Heads/hair_colour_brown.tres", "res://Heads/hair_colour_ginger.tres", "res://Heads/hair_colour_grey.tres", "res://Heads/hair_colour_green.tres", "res://Heads/hair_colour_blue.tres"]
 const skinColours = ["res://Heads/skin_colour_chestnut.tres", "res://Heads/skin_colour_espresso.tres", "res://Heads/skin_colour_golden.tres", "res://Heads/skin_colour_ivory.tres", "res://Heads/skin_colour_natural.tres", "res://Heads/skin_colour_porcelain.tres"]
 
 var lastAnimation = 4
