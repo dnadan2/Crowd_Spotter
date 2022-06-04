@@ -462,6 +462,9 @@ script = ExtResource( 1 )
 
 [node name="KayKit_AnimatedCharacter_v12" parent="." instance=ExtResource( 9 )]
 
+[node name="Head" parent="KayKit_AnimatedCharacter_v12/KayKit Animated Character/Skeleton" index="0"]
+transform = Transform( 1, 1.97636e-17, -8.81306e-19, -1.97636e-17, 0.996031, -0.0890076, -8.81306e-19, 0.0890076, 0.996031, 0, 0.711598, 0 )
+
 [node name="Head1" type="MeshInstance" parent="KayKit_AnimatedCharacter_v12/KayKit Animated Character/Skeleton/Head" index="0"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.00788695, 0 )
 visible = false
@@ -523,7 +526,7 @@ material/3 = null
 material/4 = null
 
 [node name="ArmRight" parent="KayKit_AnimatedCharacter_v12/KayKit Animated Character/Skeleton" index="3"]
-transform = Transform( -1.19209e-07, -0.471936, -0.881633, -2.5332e-07, -0.881633, 0.471936, -1, 2.49792e-07, -1.33274e-07, -0.14, 0.691598, 8.40813e-15 )
+transform = Transform( 0, -0.471936, -0.881633, -0.334477, -0.830855, 0.444754, -0.942404, 0.294886, -0.157852, -0.14, 0.691598, 8.40813e-15 )
 
 [node name="character_barbarianArmRight" type="MeshInstance" parent="KayKit_AnimatedCharacter_v12/KayKit Animated Character/Skeleton/ArmRight" index="0"]
 transform = Transform( -3.87132e-10, -2.53319e-07, -1, -0.471936, -0.881633, 2.5332e-07, -0.881633, 0.471936, -3.87601e-10, 1.47279e-08, 0.0813964, 0.0290721 )
@@ -536,12 +539,12 @@ material/3 = null
 material/4 = null
 
 [node name="HandSlotLeft" parent="KayKit_AnimatedCharacter_v12/KayKit Animated Character/Skeleton" index="4"]
-transform = Transform( -1.00343, 2.93559e-08, -8.9407e-08, -8.9407e-08, 1.48546e-07, 1.00343, -1.05116e-07, 1.00343, -1.22319e-07, 0.4, 0.205887, -1.25084e-07 )
+transform = Transform( -1, 2.92555e-08, -1.19209e-07, -1.19209e-07, 1.48038e-07, 1, -1.04757e-07, 1, -1.21901e-07, 0.4, 0.205887, -1.25084e-07 )
 
 [node name="HandSlotRight" parent="KayKit_AnimatedCharacter_v12/KayKit Animated Character/Skeleton" index="5"]
-transform = Transform( -1, 1.0808e-07, 2.98023e-08, 2.98023e-08, -1.46365e-07, 1, 3.87168e-10, 1, 1.93716e-07, -0.4, 0.205887, 1.37616e-07 )
+transform = Transform( -0.975314, 0.208106, -0.0738609, -2.98023e-07, 0.334477, 0.942404, 0.220824, 0.91914, -0.32622, -0.4, 0.233862, 0.162459 )
 
 [node name="AnimationPlayer" parent="KayKit_AnimatedCharacter_v12" index="1"]
-autoplay = "Dance"
+autoplay = "Idle"
 
 [editable path="KayKit_AnimatedCharacter_v12"]
